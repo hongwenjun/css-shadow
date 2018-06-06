@@ -1,4 +1,5 @@
 # 12 Fun CSS Text Shadows
+Como a maioria dos efeitos CSS, as sombras de texto são extremamente simples de implementar em uma forma básica, mas podem assumir uma variedade de formas diferentes se você realmente empregar algum trabalho nelas. Usando vírgulas como separador, você pode empilhar sombras de CSS umas sobre as outras para aumentar drasticamente a intensidade e o realismo do efeito. Veja alguns exemplos:
 
 ## The Basic Shadow
 	text-shadow:  2px  4px  3px  rgba(0,0,0,0.3);
@@ -7,7 +8,7 @@
     body  {
 	    background:  #222;
     }
-    
+
     #text h1 {
 	    color:  rgba(0,0,0,0.6);
 	    text-shadow:  2px  2px  3px  rgba(255,255,255,0.1);
@@ -31,7 +32,7 @@
 				    0px  18px  23px  rgba(0,0,0,0.1);
 
 ## Seriously 3D Text
-    text-shadow:	0 1px 0 #ccc, 
+    text-shadow:	0 1px 0 #ccc,
 					0 2px 0 #c9c9c9,
 					0 3px 0 #bbb,
 					0 4px 0 #b9b9b9,
